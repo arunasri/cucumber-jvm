@@ -39,9 +39,7 @@ public class FatFreeCRMLoginTest_StepDefi {
 	public void user_clicks_on_login_button() {
 		driver.findElement(By.xpath("//input[@name = 'commit']")).click();
 	}
-	
-	
-	
+		
 	@SuppressWarnings("deprecation")
 	@And("^user is on dashboard page$")
 	public void user_is_on_dasboard_page() {

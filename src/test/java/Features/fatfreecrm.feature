@@ -9,7 +9,7 @@ Scenario: Fat Free CRM Login Test Scenario
 	And user is on dashboard page
 	And close the browser
 
-Scenario: Fat Free CRM verify all tabs
-	Given Verify all tabs are present
-	Then get the title of the fat free crm page and verify
-	And close the browser
+#Scenario: Fat Free CRM verify all tabs
+#	Given verify all tabs are present in dashboard page
+#	Then click on each tab
+#	When click on signout 
